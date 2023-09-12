@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex :first-child{
+    flex: 2;
+    margin-bottom: 0px;
+}
+
+body{
+    background: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: green;
+    border-bottom: 3px solid black;
+}
+
+nav ul{
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 3px solid black;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 400px;
+    padding: 40px;
+}
+
+.article{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.article h2{
+    font-size: 25px;
+}
+aside{
+    float: left;
+    background-image: url("MODEL.jpg");
+    background-position: left;
+    
+    width: calc(25% - 20px);
+    min-height: 404px;
+    padding: 10px;
+    background: responsive;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
